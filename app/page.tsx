@@ -261,11 +261,11 @@ export default function Home() {
 
           <div className="border rounded-[2rem] lg:rounded-[2.5rem] p-6 md:p-10 lg:p-12 space-y-6 lg:space-y-8 opacity-95 shadow-2xl" style={{ backgroundColor: 'rgba(13, 11, 31, 0.4)', borderColor: 'rgba(43, 15, 107, 0.4)' }}>
             <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
-              <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white tracking-tight">GainzIQ</h3>
+              <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white tracking-tight">Physiq</h3>
               <span className="w-fit px-4 py-1.5 font-mono text-xs lg:text-sm font-semibold rounded-full border uppercase tracking-wider" style={{ backgroundColor: 'rgba(43, 15, 107, 0.4)', color: 'rgba(253, 250, 246, 0.8)', borderColor: 'rgba(43, 15, 107, 0.6)' }}>Under Compilation</span>
             </div>
             <p className="text-sm md:text-base lg:text-lg leading-relaxed max-w-4xl opacity-80 text-left">
-              A fitness intelligence app that uses Vision AI to analyze your form, track your progress, and deliver personalized insights — built with React, Python, FastAPI, and PostgreSQL
+              A smart fitness intelligence web app that uses Vision AI to analyze your form, track your progress, and deliver personalized weekly insights — built with React, Python, FastAPI, and PostgreSQL.
             </p>
             <div className="flex flex-wrap gap-2 lg:gap-3">
               {['React', 'Python', 'Vision AI', 'PostgreSQL', 'FastAPI'].map((tech) => (
