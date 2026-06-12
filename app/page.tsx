@@ -93,7 +93,7 @@ export default function Home() {
             <a href="#contact" className="hover:text-[#B36BFF] transition-colors">Contact</a>
           </div>
           <a 
-            href="/jessica_resume.pdf" 
+            href="/resume-jessica.pdf" 
             target="_blank"
             rel="noopener noreferrer"
             className="border px-6 py-2 rounded-full text-sm font-bold tracking-wider transition-all uppercase whitespace-nowrap"
@@ -137,7 +137,7 @@ export default function Home() {
 
           <div className="flex flex-wrap gap-4 pt-4 justify-start">
             <a
-              href="/jessica_resume.pdf"
+              href="/resume-jessica.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="text-white px-8 py-4 lg:px-10 lg:py-5 rounded-full font-black shadow-lg transition-all duration-300 uppercase text-xs lg:text-sm tracking-wider text-center"
