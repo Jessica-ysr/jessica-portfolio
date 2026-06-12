@@ -93,8 +93,9 @@ export default function Home() {
             <a href="#contact" className="hover:text-[#B36BFF] transition-colors">Contact</a>
           </div>
           <a 
-            href="https://docs.google.com/document/d/1ms9XNoN8XvICrrE01PkhfnsI_WiOASPl/edit?usp=drive_link" 
+            href="/jessica_resume.pdf" 
             target="_blank"
+            rel="noopener noreferrer"
             className="border px-6 py-2 rounded-full text-sm font-bold tracking-wider transition-all uppercase whitespace-nowrap"
             style={{ borderColor: '#B36BFF', color: '#B36BFF' }}
             onMouseEnter={() => setIsHovered(true)}
@@ -136,8 +137,9 @@ export default function Home() {
 
           <div className="flex flex-wrap gap-4 pt-4 justify-start">
             <a
-              href="https://docs.google.com/document/d/1ms9XNoN8XvICrrE01PkhfnsI_WiOASPl/edit?usp=drive_link"
+              href="/jessica_resume.pdf"
               target="_blank"
+              rel="noopener noreferrer"
               className="text-white px-8 py-4 lg:px-10 lg:py-5 rounded-full font-black shadow-lg transition-all duration-300 uppercase text-xs lg:text-sm tracking-wider text-center"
               style={{ backgroundColor: '#6A2CFF' }}
               onMouseEnter={() => setIsHovered(true)}
@@ -396,6 +398,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+
       {/* ABOUT ME - UPDATED CONTENT */}
       <section id="about" className="max-w-[90rem] mx-auto px-6 lg:px-16 py-16 border-t border-[#2B0F6B]">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
